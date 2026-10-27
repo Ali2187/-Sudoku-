@@ -115,23 +115,3 @@ Both solvers implement a simple interface:
 solver = BacktrackingSolver()  # or ArcConsistencySolver(board)
 solver.solve(board)  # returns True/False, mutates board in place
 ```
-
----
-
-## License
-
-MIT License — free to use, modify, and distribute.
-
----
-
-## Authors
-
-- **Omar Hany**
-- **Aly Ameen**
-
----
-
-## Acknowledgments
-
-- AC-3 algorithm from *Artificial Intelligence: A Modern Approach* (Russell & Norvig)
-- Sudoku constraint modeling inspired by standard CSP formulations
